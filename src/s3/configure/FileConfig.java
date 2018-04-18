@@ -14,7 +14,7 @@ public class FileConfig {
 
 	public static void load() {
 		// TODO Auto-generated method stub
-		String path = FileConfig.class.getProtectionDomain().getCodeSource().getLocation().getPath() + File.separator
+		String path = new File(FileConfig.class.getProtectionDomain().getCodeSource().getLocation().getPath()).getParent() + File.separator
 				+ name;
 		File f = new File(path);
 		if (!f.exists()) {

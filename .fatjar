@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Wed Apr 18 00:12:04 CDT 2018
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=/Users/cszuo/tmp/HttpOverSocks.jar
+manifest.mergeall=true
+manifest.mainclass=TestProxyServer
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=
+excludes=
+includes=
